@@ -8,7 +8,7 @@ const AllCharacters = async () => {
     name: element.name,
     gender: element.gender,
   }));
-  console.log(res);
+
   return CharactersList(data);
 };
 

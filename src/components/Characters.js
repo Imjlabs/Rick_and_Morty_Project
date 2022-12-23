@@ -10,3 +10,4 @@ export default function CharactersList(arrayOfElement) {
 
   return element;
 }
+
