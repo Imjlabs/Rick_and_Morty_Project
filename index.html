@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet IPSSI API Rick and Morty</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rick and Morty</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <nav>
-    <button data-tabId="characters">Personnages</button>
-    <button data-tabId="characters">Rechercher</button>
-  </nav>
-  <div id="app">
-    <template id="listOfElement">
-    </template>
-  </div>
-  <script type="module" src="/main.js"></script>
-</body>
-
+  <body>
+    <nav>
+      <div class="home">
+        <a href="/">Accueil</a>
+      </div>
+      <input
+        type="text"
+        class="search"
+        placeholder="Rechercher un personnage"
+        id="search"
+      />
+    </nav>
+    <div id="container">
+      <template id="allCard"> </template>
+    </div>
+    <script type="module" src="/app.js"></script>
+  </body>
 </html>

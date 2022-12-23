@@ -11,7 +11,7 @@ class TabManager {
             this.rootElement.innerHTML = ''
             this.rootElement.appendChild(Component)
         } else {
-            console.error('Invalid id provided')
+            console.error('ID non valide')
         }
     }
 }
